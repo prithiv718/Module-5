@@ -11,9 +11,15 @@ To write a Python program that creates a **Student** class with a **default cons
 5. **Execute the Program**: Instantiate the `Student` class and call the `show` method.
 
 ## 🧾 Program
-
-Add code here
+```
+class Student: def init(self,name,userid): self.name=name self.userid=userid self.display()
+def display(self): print(self.userid) name=input() userid=input() obj =
+Student(name,userid) obj.display()
+```
 
 ## Output
+<img width="424" height="174" alt="image" src="https://github.com/user-attachments/assets/0d351b20-b49c-47a8-abf7-3d8e4becdf95" />
 
 ## Result
+The Python program that creates a Student class with a default constructor,which will
+take the name and userid of the person as parameters print the userid of the person.
